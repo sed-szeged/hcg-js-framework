@@ -11,6 +11,9 @@ follows:
     like the dynmaic and static analysis programs, helper scripts for
     handling dynamic traces, etc.
 
+-   hybrid-metrics-extractor - a folder containing scripts for deriving
+    hybrid call-graph metrics (NOI/NII) from hcg result json
+
 -   hybrid-cg-main.py - the main script of the framework
 
 -   jscg\_compare\_json.py - a module for merging various JSON files
