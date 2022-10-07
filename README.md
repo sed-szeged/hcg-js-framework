@@ -1,5 +1,5 @@
 # hybrid-code-analyzer
-todo: short description
+An addon for the hybrid-call-graph-extractor framework that is able to calculate dynamic versions of various C&K metrics.
 
 To set up, do the following steps:
 - Clone the repository
