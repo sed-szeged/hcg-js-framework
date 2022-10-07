@@ -1,6 +1,0 @@
-This project is created from njsTrace:
-https://github.com/ValYouW/njsTrace
-
-Usage: see njsrun.js
-
-An array of globs can be passed to inject() if necessary.

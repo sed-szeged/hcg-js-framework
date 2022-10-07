@@ -1,66 +1,19 @@
-# hcg-js-framework
-A hybrid JavaScript call-graph framework
+# hybrid-code-analyzer
+todo: short description
 
-Usage of the Framework
-----------------------
+To set up, do the following steps:
+- Clone the repository
+- Set up CONFIG.py (more on this later)
+- Create a folder inside of the repo called "node-sources"
+- Execute `npm install` in the root folder
+- Run `hybrid-metric-main.py` using python3+
 
-The framework itself is a command line tool. The package is built up as
-follows:
+Results will be found in the "results" directory, under the given repository's name.
 
--   util - a folder containing the necessary tools for the framework,
-    like the dynmaic and static analysis programs, helper scripts for
-    handling dynamic traces, etc.
-
--   hybrid-metrics-extractor - a folder containing scripts for deriving
-    hybrid call-graph metrics (NOI/NII) from hcg result json
-
--   hybrid-cg-main.py - the main script of the framework
-
--   jscg\_compare\_json.py - a module for merging various JSON files
-    into one
-
--   jscg\_generate\_venny\_csv.py - a module for generating csv data
-    for vizualization
-
--   jscg\_convert2json.py - a module for converting the different tool
-    outputs to the common JSON format
-
--   CONFIG.py - the configuration file describing the arguments of the
-    program analysis
-
-In the CONFIG file, there should be a Python dictionary named CONF,
-which contains the following:
-
--   modules - the description of the Node.js modules to be analyzed
-
-    -   name - the name of the module
-
-    -   repo - the Git repository where the sources can be found
-
-    -   hash - the SHA hash of the commit to be analyzed
-
-    -   filter - a set of filters to define which parts of the source
-        code should be included in the analysis
-
-    -   patch - if there is a modification to the source that should be
-        applied before the analysis, list it here
-
--   node-orig - the path for the original, unmodified node binary
-    (default: \"/usr/bin/node\")
-
--   js-tools - the utils directory (default: \"util\")
-
--   working-directed - the working directory where the sources are
-    downloaded (default: \"node-sources\")
-
--   cg-path - the folder where the resulting call-graphs should be
-    placed (default: \"callgraphs\")
-
-To run the tool, type the following in a command line:
-
-      python3 hybrid-cg-main.py {skip-clone}
-
-This will run the necessary tools and produces a hybrid call-graph in
-the previously discussed JSON format. If the sources need not to be
-cloned from a Git repository, one can apply the \"skip-clone\"
-parameter.
+# Setting up CONFIG.py
+This is the main configuration file, made in a JSON/dict format. You can add Git repositories here with their commit hashes for automatic cloning and testing. When the main python file is ran, these repositories will be analyzed.
+These are the following options for each 'module':
+- `name`: Name of the repository
+- `repo`: .git link of the repository
+- `hash`: Commit hash
+- `inject`: List of files to inject into. This has to be the main root js file and the main testing js file!

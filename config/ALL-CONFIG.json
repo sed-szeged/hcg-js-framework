@@ -1,0 +1,886 @@
+{
+    "modules": [
+        {
+            "name": "MQTT.js",
+            "repo": "https://github.com/mqttjs/MQTT.js.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "node-airbrake",
+            "repo": "https://github.com/airbrake/node-airbrake.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "actionhero",
+            "repo": "https://github.com/actionhero/actionhero.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "qs",
+            "repo": "https://github.com/ljharb/qs.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "crud-file-server",
+            "repo": "https://github.com/omphalos/crud-file-server.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "pdfinfojs",
+            "repo": "https://github.com/fagbokforlaget/pdfinfojs.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "hapi",
+            "repo": "https://github.com/hapijs/hapi.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "mysql",
+            "repo": "https://github.com/mysqljs/mysql.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "node-operadriver",
+            "repo": "https://github.com/cnpm/node-operadriver.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "nes",
+            "repo": "https://github.com/hapijs/nes.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "forwarded",
+            "repo": "https://github.com/jshttp/forwarded.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "rendr",
+            "repo": "https://github.com/rendrjs/rendr.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "gm",
+            "repo": "https://github.com/aheckmann/gm.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "send",
+            "repo": "https://github.com/pillarjs/send.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "NodeBB",
+            "repo": "https://github.com/NodeBB/NodeBB.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "aegir",
+            "repo": "https://github.com/ipfs/aegir.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "engine.io-client",
+            "repo": "https://github.com/socketio/engine.io-client.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "ember.js",
+            "repo": "https://github.com/emberjs/ember.js.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "react",
+            "repo": "https://github.com/facebook/react.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "sails",
+            "repo": "https://github.com/balderdashy/sails.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "boom",
+            "repo": "https://github.com/hapijs/boom.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "tinymce",
+            "repo": "https://github.com/tinymce/tinymce.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "brace-expansion",
+            "repo": "https://github.com/juliangruber/brace-expansion.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "mapbox.js",
+            "repo": "https://github.com/mapbox/mapbox.js.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "sequelize",
+            "repo": "https://github.com/sequelize/sequelize.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "reveal.js",
+            "repo": "https://github.com/hakimel/reveal.js.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "alto-saxophone",
+            "repo": "https://github.com/tobli/alto-saxophone.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "node-ip",
+            "repo": "https://github.com/indutny/node-ip.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "crumb",
+            "repo": "https://github.com/hapijs/crumb.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "static-cache",
+            "repo": "https://github.com/koajs/static-cache.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "serve",
+            "repo": "https://github.com/zeit/serve.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "grunt-gh-pages",
+            "repo": "https://github.com/tschaub/grunt-gh-pages.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "polyfill-service",
+            "repo": "https://github.com/Financial-Times/polyfill-service.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "fresh",
+            "repo": "https://github.com/jshttp/fresh.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "bassmaster",
+            "repo": "https://github.com/hapijs/bassmaster.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "macaca-chromedriver",
+            "repo": "https://github.com/macacajs/macaca-chromedriver.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "node-jose",
+            "repo": "https://github.com/cisco/node-jose.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "console-io",
+            "repo": "https://github.com/cloudcmd/console-io.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "ChakraCore",
+            "repo": "https://github.com/microsoft/ChakraCore.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "node-floody",
+            "repo": "https://github.com/soldair/node-floody.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "decamelize",
+            "repo": "https://github.com/sindresorhus/decamelize.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "etherpad-lite",
+            "repo": "https://github.com/ether/etherpad-lite.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "DOMPurify",
+            "repo": "https://github.com/cure53/DOMPurify.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "life_star",
+            "repo": "https://github.com/LivelyKernel/life_star.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "mathjs",
+            "repo": "https://github.com/josdejong/mathjs.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "nforce",
+            "repo": "https://github.com/kevinohara80/nforce.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "dustjs",
+            "repo": "https://github.com/linkedin/dustjs.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "localhost-now",
+            "repo": "https://github.com/DCKT/localhost-now.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "brisket",
+            "repo": "https://github.com/brisket/brisket.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "node-restify",
+            "repo": "https://github.com/restify/node-restify.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "static-eval",
+            "repo": "https://github.com/substack/static-eval.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "glance",
+            "repo": "https://github.com/jarofghosts/glance.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "electron",
+            "repo": "https://github.com/electron/electron.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "js-xss",
+            "repo": "https://github.com/leizongmin/js-xss.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "textAngular",
+            "repo": "https://github.com/textAngular/textAngular.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "Ghost",
+            "repo": "https://github.com/TryGhost/Ghost.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "serve-static",
+            "repo": "https://github.com/expressjs/serve-static.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "randomatic",
+            "repo": "https://github.com/jonschlinkert/randomatic.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "useragent",
+            "repo": "https://github.com/3rd-Eden/useragent.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "dojo",
+            "repo": "https://github.com/dojo/dojo.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "angular.js",
+            "repo": "https://github.com/angular/angular.js.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "validator.js",
+            "repo": "https://github.com/chriso/validator.js.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "inert",
+            "repo": "https://github.com/hapijs/inert.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "ejs",
+            "repo": "https://github.com/mde/ejs.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "c3",
+            "repo": "https://github.com/c3js/c3.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "pidusage",
+            "repo": "https://github.com/soyuka/pidusage.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "forge",
+            "repo": "https://github.com/digitalbazaar/forge.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "st",
+            "repo": "https://github.com/isaacs/st.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "superstatic",
+            "repo": "https://github.com/firebase/superstatic.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "js-quantities",
+            "repo": "https://github.com/gentooboontoo/js-quantities.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "negotiator",
+            "repo": "https://github.com/jshttp/negotiator.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "galenframework-cli",
+            "repo": "https://github.com/hypery2k/galenframework-cli.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "mediaelement",
+            "repo": "https://github.com/mediaelement/mediaelement.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "markdown-it",
+            "repo": "https://github.com/markdown-it/markdown-it.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "engine.io",
+            "repo": "https://github.com/socketio/engine.io.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "node-slug",
+            "repo": "https://github.com/zhuangya/node-slug.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "concat-stream",
+            "repo": "https://github.com/maxogden/concat-stream.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "node-jwt-simple",
+            "repo": "https://github.com/hokaccha/node-jwt-simple.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "node-whereis",
+            "repo": "https://github.com/vvo/node-whereis.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "remarkable",
+            "repo": "https://github.com/jonschlinkert/remarkable.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "mustache.js",
+            "repo": "https://github.com/janl/mustache.js.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "ws",
+            "repo": "https://github.com/websockets/ws.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "foundation-sites",
+            "repo": "https://github.com/zurb/foundation-sites.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "here",
+            "repo": "https://github.com/vivaxy/here.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "node-chromedriver",
+            "repo": "https://github.com/giggio/node-chromedriver.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "selenium-download",
+            "repo": "https://github.com/groupon/selenium-download.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "hostr",
+            "repo": "https://github.com/henrytseng/hostr.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "jquery",
+            "repo": "https://github.com/jquery/jquery.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "crypto-browserify",
+            "repo": "https://github.com/crypto-browserify/crypto-browserify.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "method-override",
+            "repo": "https://github.com/expressjs/method-override.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "knex",
+            "repo": "https://github.com/tgriesser/knex.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "node",
+            "repo": "https://github.com/nodejs/node.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "mongoose",
+            "repo": "https://github.com/Automattic/mongoose.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "strider-sauce",
+            "repo": "https://github.com/Strider-CD/strider-sauce.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "angular-gettext",
+            "repo": "https://github.com/rubenv/angular-gettext.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**"
+            ]
+        },
+        {
+            "name": "ClosureCompiler.js",
+            "repo": "https://github.com/dcodeIO/ClosureCompiler.js.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "ms",
+            "repo": "https://github.com/zeit/ms.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        },
+        {
+            "name": "pouchdb",
+            "repo": "https://github.com/pouchdb/pouchdb.git",
+            "hash": "-",
+            "inject": [
+                "no-index.js",
+                "no-test-folder"
+            ]
+        }
+    ]
+}

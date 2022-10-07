@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@persper/js-callgraph": "file:util/acg/util/js-callgraph",
+    "grunt": "^1.4.1",
+    "grunt-cli": "^1.4.3",
+    "njstrace": "file:util/njsTrace"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}

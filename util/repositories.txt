@@ -1,0 +1,98 @@
+https://github.com/mysqljs/mysql/	urun
+https://github.com/juliangruber/brace-expansion/	Tape
+https://github.com/soldair/node-floody/	Tape
+https://github.com/substack/static-eval/	Tape
+https://github.com/maxogden/concat-stream/	Tape
+https://github.com/jarofghosts/glance/	Tape
+https://github.com/isaacs/st/	Tap
+https://github.com/airbrake/node-airbrake/	sinon
+https://github.com/tobli/alto-saxophone/	Saját?
+https://github.com/TryGhost/Ghost/	Mocha Lint
+https://github.com/fagbokforlaget/pdfinfojs/	Mocha
+https://github.com/rendrjs/rendr/	Mocha
+https://github.com/kevinohara80/nforce/	Mocha
+https://github.com/expressjs/serve-static/	Mocha
+https://github.com/jonschlinkert/randomatic/	Mocha
+https://github.com/3rd-Eden/useragent/	Mocha
+https://github.com/hokaccha/node-jwt-simple/	Mocha
+https://github.com/vivaxy/here/	Mocha
+https://github.com/expressjs/method-override/	Mocha
+https://github.com/zeit/ms/	Mocha
+https://github.com/jshttp/forwarded/	Mocha
+https://github.com/pillarjs/send/	Mocha
+https://github.com/jshttp/fresh/	Mocha
+https://github.com/groupon/selenium-download/	Mocha
+https://github.com/henrytseng/hostr/	Mocha
+https://github.com/websockets/ws/	Mocha
+https://github.com/macacajs/macaca-chromedriver/	Mocha
+https://github.com/digitalbazaar/forge/	Mocha
+https://github.com/mediaelement/mediaelement/	Mocha
+https://github.com/markdown-it/markdown-it/	Mocha
+https://github.com/jonschlinkert/remarkable/	Mocha
+https://github.com/leizongmin/js-xss/	Mocha
+https://github.com/mde/ejs/	Mocha
+https://github.com/indutny/node-ip/	Mocha
+https://github.com/hapijs/inert/	Lab Lint
+https://github.com/hapijs/boom/	Lab
+https://github.com/hapijs/crumb/	Lab
+https://github.com/hapijs/bassmaster/	Lab
+https://github.com/linkedin/dustjs/	Jasmine
+https://github.com/soyuka/pidusage/	Ava
+https://github.com/aheckmann/gm/	Saját?
+https://github.com/cure53/DOMPurify/	QUnit
+https://github.com/emberjs/ember.js/	Mocha Puppeteer
+https://github.com/pouchdb/pouchdb/	Mocha (w Mockery) Tape
+https://github.com/chriso/validator.js/	Mocha
+https://github.com/socketio/engine.io-client/	Mocha
+https://github.com/restify/node-restify/	Mocha
+https://github.com/Automattic/mongoose/	Mocha
+https://github.com/tschaub/grunt-gh-pages/	Mocha
+https://github.com/Financial-Times/polyfill-service/	Mocha
+https://github.com/cisco/node-jose/	Mocha
+https://github.com/mapbox/mapbox.js/	Mocha
+https://github.com/firebase/superstatic/	Mocha
+https://github.com/jshttp/negotiator/	Mocha
+https://github.com/balderdashy/sails/	Mocha
+https://github.com/zeit/serve/	Lint (Yarn)
+https://github.com/hapijs/hapi/	Lab
+https://github.com/hapijs/nes/	Lab
+https://github.com/NodeBB/NodeBB/	Jest
+https://github.com/brisket/brisket/	Jasmine
+https://github.com/gentooboontoo/js-quantities/	Jasmine
+https://github.com/LivelyKernel/life_star/	Gulp Nodeunit
+https://github.com/sindresorhus/decamelize/	Ava
+https://github.com/ljharb/qs/	Tape
+https://github.com/rubenv/angular-gettext/	Mocha
+https://github.com/sequelize/sequelize/	Mocha
+https://github.com/mqttjs/MQTT.js/	Mocha
+https://github.com/koajs/static-cache/	Mocha
+https://github.com/socketio/engine.io/	Mocha
+https://github.com/actionhero/actionhero/	Jest Puppeteer
+https://github.com/zhuangya/node-slug/	Mocha
+https://github.com/DCKT/localhost-now/	<no unit testing framework>
+https://github.com/omphalos/crud-file-server/	<no unit testing framework>
+https://github.com/cloudcmd/console-io/	<no unit testing framework>
+https://github.com/vvo/node-whereis/	<no unit testing framework>
+https://github.com/giggio/node-chromedriver/	<no unit testing framework>
+https://github.com/cnpm/node-operadriver/	<no unit testing framework>
+https://github.com/hypery2k/galenframework-cli/	<no unit testing framework>
+https://github.com/crypto-browserify/crypto-browserify/	Tape
+https://github.com/electron/electron/	Saját Mocha
+https://github.com/nodejs/node/	Saját (Assert)
+https://github.com/dcodeIO/ClosureCompiler.js/	Saját (1 db demo test)
+https://github.com/jquery/jquery/	QUnit
+https://github.com/hakimel/reveal.js/	Puppeteer
+https://github.com/tgriesser/knex/	Mocha Tape
+https://github.com/janl/mustache.js/	Mocha Puppeteer
+https://github.com/zurb/foundation-sites/	Mocha Puppeteer
+https://github.com/ipfs/aegir/	Mocha Playwright
+https://github.com/tinymce/tinymce/	Mocha
+https://github.com/josdejong/mathjs/	Mocha
+https://github.com/Strider-CD/strider-sauce/	Mocha
+https://github.com/facebook/react/	Jest Jasmine
+https://github.com/microsoft/ChakraCore/	Jest
+https://github.com/ether/etherpad-lite/	Jest
+https://github.com/textAngular/textAngular/	Jasmine Travis CI
+https://github.com/angular/angular.js/	Jasmine
+https://github.com/c3js/c3/	Jasmine
+https://github.com/dojo/dojo/	Dojo (?)

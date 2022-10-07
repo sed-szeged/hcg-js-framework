@@ -1,0 +1,303 @@
+{
+    "functions": [
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@run:1:6",
+            "statements": []
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleIfStatement:19:0",
+            "statements": [
+                {
+                    "type": "IfStatement",
+                    "start": {
+                        "line": 24,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 26,
+                        "column": 5
+                    },
+                    "depth": 0
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleElseIfStatement:29:0",
+            "statements": [
+                {
+                    "type": "IfStatement",
+                    "start": {
+                        "line": 36,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 38,
+                        "column": 5
+                    },
+                    "depth": 3
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleIfStatementNoBlock:44:0",
+            "statements": [
+                {
+                    "type": "IfStatement",
+                    "start": {
+                        "line": 45,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 45,
+                        "column": 36
+                    },
+                    "depth": 0
+                },
+                {
+                    "type": "IfStatement",
+                    "start": {
+                        "line": 46,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 46,
+                        "column": 39
+                    },
+                    "depth": 0
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleSwitchStatement:49:0",
+            "statements": [
+                {
+                    "type": "SwitchCase",
+                    "start": {
+                        "line": 51,
+                        "column": 8
+                    },
+                    "end": {
+                        "line": 52,
+                        "column": 25
+                    },
+                    "depth": 1
+                },
+                {
+                    "type": "SwitchCase",
+                    "start": {
+                        "line": 65,
+                        "column": 8
+                    },
+                    "end": {
+                        "line": 66,
+                        "column": 37
+                    },
+                    "depth": 1
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleCatchStatement:71:0",
+            "statements": [
+                {
+                    "type": "CatchClause",
+                    "start": {
+                        "line": 74,
+                        "column": 6
+                    },
+                    "end": {
+                        "line": 76,
+                        "column": 5
+                    },
+                    "depth": 1
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleForStatement:81:0",
+            "statements": [
+                {
+                    "type": "ForStatement",
+                    "start": {
+                        "line": 84,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 86,
+                        "column": 5
+                    },
+                    "depth": 0
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleForStatementNoBlock:92:0",
+            "statements": [
+                {
+                    "type": "ForStatement",
+                    "start": {
+                        "line": 95,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 96,
+                        "column": 14
+                    },
+                    "depth": 0
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleForOfStatement:102:0",
+            "statements": [
+                {
+                    "type": "ForOfStatement",
+                    "start": {
+                        "line": 107,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 109,
+                        "column": 5
+                    },
+                    "depth": 0
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleForInStatement:115:0",
+            "statements": [
+                {
+                    "type": "ForInStatement",
+                    "start": {
+                        "line": 120,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 122,
+                        "column": 5
+                    },
+                    "depth": 0
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleWhileStatement:128:0",
+            "statements": [
+                {
+                    "type": "WhileStatement",
+                    "start": {
+                        "line": 131,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 133,
+                        "column": 5
+                    },
+                    "depth": 0
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleDoWhileStatement:138:0",
+            "statements": [
+                {
+                    "type": "DoWhileStatement",
+                    "start": {
+                        "line": 140,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 142,
+                        "column": 22
+                    },
+                    "depth": 0
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleTernaryStatement:147:0",
+            "statements": [
+                {
+                    "type": "ConditionalExpression",
+                    "start": {
+                        "line": 148,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 148,
+                        "column": 45
+                    },
+                    "depth": 1
+                },
+                {
+                    "type": "ConditionalExpression",
+                    "start": {
+                        "line": 148,
+                        "column": 26
+                    },
+                    "end": {
+                        "line": 148,
+                        "column": 45
+                    },
+                    "depth": 2
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleLogicalNullish:151:0",
+            "statements": [
+                {
+                    "type": "LogicalExpression",
+                    "start": {
+                        "line": 152,
+                        "column": 21
+                    },
+                    "end": {
+                        "line": 152,
+                        "column": 33
+                    },
+                    "depth": 2
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleLogicalANDStatement:157:0",
+            "statements": [
+                {
+                    "type": "LogicalExpression",
+                    "start": {
+                        "line": 158,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 158,
+                        "column": 23
+                    },
+                    "depth": 1
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@exampleLogicalORStatement:161:0",
+            "statements": [
+                {
+                    "type": "LogicalExpression",
+                    "start": {
+                        "line": 162,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 162,
+                        "column": 24
+                    },
+                    "depth": 1
+                }
+            ]
+        },
+        {
+            "function_id": "/home/wolf/Ceges/McBaby/mcc-js-framework/node-sources/example-repo/example_lib.js@[Anonymous]:0:1",
+            "statements": []
+        }
+    ]
+}

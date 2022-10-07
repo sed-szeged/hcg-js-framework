@@ -1,0 +1,31 @@
+Template:
+<filename>:<enclosing_function_name | undefined | global>:<line_number> -> <filename>:<called_function_name | undefined>:<line_number>
+
+The general format of a line follows the above syntax.
+An example input and output might be:
+
+INPUT (from create-component.js.o):
+
+componentVNodeHooks.init();
+
+// inline hooks to be invoked on component VNodes during patch
+var componentVNodeHooks = {
+  init: function init(vnode, hydrating, parentElm, refElm) {
+    if (vnode.componentInstance && !vnode.componentInstance._isDestroyed && vnode.data.keepAlive) {
+      // kept-alive components, treat as a patch
+      var mountedNode = vnode; // work around flow
+      componentVNodeHooks.prepatch(mountedNode, mountedNode);
+    } else {
+      ...
+
+OUTPUT:
+create-component.js.o:anon:29 -> create-component.js.o:init:33
+create-component.js.o:init:37 -> create-component.js.o:prepatch:43
+create-component.js.o:init:39 -> create-component.js.o:createComponentIntanceForVnode:178
+
+
+If you are unsure where the function being call is defined, you can add and arrow without
+a right side like so:
+create-component.js.o:init:40 ->
+
+These will be filtered along with native functions in the final calculation

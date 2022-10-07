@@ -1,0 +1,7 @@
+.vscode/
+node_modules
+doc
+*.node
+*.sh
+.idea
+.codio

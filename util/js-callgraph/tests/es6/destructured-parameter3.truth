@@ -1,3 +1,0 @@
-destructured-parameter3.js:f:10 -> destructured-parameter3.js:anon:12
-destructured-parameter3.js:main:13 -> destructured-parameter3.js:f:9
-destructured-parameter3.js:global:16 -> destructured-parameter3.js:main:8

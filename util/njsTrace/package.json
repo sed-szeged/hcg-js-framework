@@ -1,0 +1,38 @@
+{
+  "name": "njstrace",
+  "version": "2.0.1",
+  "description": "A Node.js tracing and instrumentation utility",
+  "main": "njsTrace.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint \"**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuvalw/njsTrace.git"
+  },
+  "keywords": [
+    "trace",
+    "tracing",
+    "verbose",
+    "instrumentation",
+    "profiling",
+    "performance"
+  ],
+  "author": "ValYouW <ValYouW@gmail.com> (http://www.TheCodingNotebook.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuvalw/njsTrace/issues"
+  },
+  "homepage": "https://github.com/yuvalw/njsTrace",
+  "dependencies": {
+    "espree": "^7.3.1",
+    "extend": "^3.0.2",
+    "idgen": "^2.1.0",
+    "minimatch": "^3.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-plugin-named-unassigned-functions": "^0.0.3"
+  }
+}

@@ -1,0 +1,274 @@
+{
+    "modules": [
+        {
+            "name": "node-airbrake",
+            "repo": "https://github.com/airbrake/node-airbrake.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "pdfinfojs",
+            "repo": "https://github.com/fagbokforlaget/pdfinfojs.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "mysql",
+            "repo": "https://github.com/mysqljs/mysql.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "forwarded",
+            "repo": "https://github.com/jshttp/forwarded.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "rendr",
+            "repo": "https://github.com/rendrjs/rendr.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "gm",
+            "repo": "https://github.com/aheckmann/gm.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "send",
+            "repo": "https://github.com/pillarjs/send.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "brace-expansion",
+            "repo": "https://github.com/juliangruber/brace-expansion.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "sequelize",
+            "repo": "https://github.com/sequelize/sequelize.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "static-cache",
+            "repo": "https://github.com/koajs/static-cache.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "fresh",
+            "repo": "https://github.com/jshttp/fresh.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "node-floody",
+            "repo": "https://github.com/soldair/node-floody.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "nforce",
+            "repo": "https://github.com/kevinohara80/nforce.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "dustjs",
+            "repo": "https://github.com/linkedin/dustjs.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "static-eval",
+            "repo": "https://github.com/substack/static-eval.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "glance",
+            "repo": "https://github.com/jarofghosts/glance.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "Ghost",
+            "repo": "https://github.com/TryGhost/Ghost.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "serve-static",
+            "repo": "https://github.com/expressjs/serve-static.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "useragent",
+            "repo": "https://github.com/3rd-Eden/useragent.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "pidusage",
+            "repo": "https://github.com/soyuka/pidusage.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "negotiator",
+            "repo": "https://github.com/jshttp/negotiator.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "markdown-it",
+            "repo": "https://github.com/markdown-it/markdown-it.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "concat-stream",
+            "repo": "https://github.com/maxogden/concat-stream.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "node-jwt-simple",
+            "repo": "https://github.com/hokaccha/node-jwt-simple.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "ws",
+            "repo": "https://github.com/websockets/ws.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "here",
+            "repo": "https://github.com/vivaxy/here.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "crypto-browserify",
+            "repo": "https://github.com/crypto-browserify/crypto-browserify.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "method-override",
+            "repo": "https://github.com/expressjs/method-override.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "mongoose",
+            "repo": "https://github.com/Automattic/mongoose.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        },
+        {
+            "name": "angular-gettext",
+            "repo": "https://github.com/rubenv/angular-gettext.git",
+            "hash": "-",
+            "inject": [
+                "index.js",
+                "test/**/*.js"
+            ]
+        }
+    ]
+}
