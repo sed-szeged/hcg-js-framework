@@ -1,8 +1,20 @@
-# Build settings
-theme: minima
+# The hcg-js-framework
+This project implements a hybrid JavaScript call-graph framework that refines statically extracted JavaScript call-graphs with dynamic analysis. The project has been developed within the SETIT Project (2018-1.2.1-NKP-2018-00004). Project no. 2018-1.2.1-NKP-2018-00004 has been implemented with the support provided from the National Research, Development and Innovation Fund of Hungary, financed under the 2018-1.2.1-NKP funding scheme.
+The connected publication can be referenced as follows:
 
-# hcg-js-framework
-A hybrid JavaScript call-graph framework
+```
+@article{MTMT:31818460,
+  author = {Antal, Gábor and Tóth, Zoltán Gábor and Hegedűs, Péter and Ferenc, Rudolf},
+  doi = {10.3390/technologies9010003},
+  title = {{Enhanced Bug Prediction in JavaScript Programs with Hybrid Call-Graph Based Invocation Metrics}},
+  journal = {Technologies},
+  volume = {9},
+  unique-id = {31818460},
+  year = {2021},
+  pages = {3},
+  orcid-numbers = {Tóth, Zoltán Gábor/0000-0002-2268-1877; Hegedűs, Péter/0000-0003-4592-6504; Ferenc, Rudolf/0000-0001-8897-7403}
+}
+```
 
 Usage of the Framework
 ----------------------
@@ -67,3 +79,6 @@ This will run the necessary tools and produces a hybrid call-graph in
 the previously discussed JSON format. If the sources need not to be
 cloned from a Git repository, one can apply the \"skip-clone\"
 parameter.
+
+# Support service
+You are free to use the framework on your own, however, University of Szeged, Software Engineering Department offers a support service as well in order to help the application of the framework. For details, please contact us by opening an issue or filing in a pull request.
